@@ -3,7 +3,6 @@ import { useState } from "react";
 
 function Counter() {
   let [counter, setCounter] = useState(0);
-  console.log(counter);
   return (
     <div className="counter-div">
       <p className="counter-para">
